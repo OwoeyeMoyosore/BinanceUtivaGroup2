@@ -8,6 +8,7 @@ body{
 }
 .mynav{
     padding: 1rem 2rem;
+    background-color: transparent!important;
 }
 a{
     text-decoration: none;
@@ -19,13 +20,45 @@ a{
 .book-btn{
     background-color:#ff490d ;
     border: #ff490d;
+    width: 10rem;
+}
+.book-btn:hover{
+    background-color: white;
+    color: #ff490d!important;
+    border: 2px solid #ff490d;
 }
 .sec1img{
     object-fit: cover;
     object-position: 100%;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
 }
+.section-one{
+    padding: 0;
+}
+.division-one{
+    padding: 0!important;
+}
+
+@media screen and (max-width: 768px) {
+    .division-two{
+        position: absolute; 
+        z-index: 1;
+        margin-top: 10rem!important;
+        padding-inline: 2rem;
+        
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .division-two{
+        /* margin-top: 18rem!important; */
+        margin-block: auto!important;
+        /* padding-inline: 0!important; */
+        padding-inline: 5rem;
+    }
+}
+
 .division-one::after{
     content: '';
     width: 55%;
@@ -33,18 +66,23 @@ a{
     position: absolute;
     top: 25%;
     right: 12%;
-    /* right: -25%; */
     background-image: url("./assets/images/line.svg");
     background-position: left top;
     background-size: contain;
     background-repeat: no-repeat;
+    
 }
 .big-text{
     font-family: "A",sans-serif;
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: 56px;
     color: #ff490d;
     line-height: 1.1
+}
+@media screen and (max-width: 768px) {
+    .big-text{
+        font-size: 38px;
+    }
 }
 .big-text::after{
     content: '';
@@ -64,12 +102,29 @@ a{
     font-family: "A",sans-serif;
     font-size: .85rem;
     color: #ff490d;
-    position: absolute;
-    bottom: -5rem;
+    margin-top: 2rem;
 }
+
 .scroll-down img{
     margin: 0 auto;
     display: block;
     -webkit-animation: bounce .75s infinite ease-in-out alternate;
     animation: bounce .75s infinite ease-in-out alternate;
 }
+.section-two{
+    padding-top: 13rem;
+    padding-inline: 10rem;
+}
+.sec2imgdiv{
+    width: 100%;
+    max-width: 26rem;
+    position: absolute;
+    /* right: 0 */
+}
+.sec2img{
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+}
+
+

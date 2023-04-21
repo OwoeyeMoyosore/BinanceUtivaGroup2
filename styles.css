@@ -39,6 +39,7 @@ a{
 .section-one{
     padding: 0;
     background-color: #fffaf5;
+    height: 100%;
 }
 .division-one{
     padding: 0!important;
@@ -137,6 +138,34 @@ a{
 }
 
 
+@media screen and (max-width: 768px) {
+    .sec2col{
+        position: absolute; 
+        z-index: 1;
+        /* margin-top: 10rem!important; */
+        padding-inline: 2rem;
+        
+    }
+}
+
+.footer{
+  background-color: black;
+  height: 100%;
+  padding: 6rem 4rem 0 4rem;
+  
+}
+
+.logowhite{
+  width: 10rem;
+  padding-bottom: 3rem;
+}
+.signUp{
+  font-size: 29px;
+  border-bottom: 2px solid #ff490d;
+}
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
 
 *,
@@ -191,20 +220,21 @@ nav.container {
   border-bottom: #ff490d 2px solid;
 }
 
-.btn {
-  color: #fff;
-  display: inline-block;
-  background-color: #ff490d;
-  font-size: 0.95em;
+.button{
+  color: #ff490d!important;
+  display: flex!important;
+  height: auto;
+  width: auto!important;
+  font-size: 1rem;
   padding: 1rem 1.5rem;
   border-radius: 3rem;
   text-align: center;
-  border: none;
-  outline: none;
-  /* box-shadow: 0px 0px 1.25rem 0px rgba(29,29,29,0.1); */
   line-height: 1;
   font-weight: bold;
-  user-select: none;
+  background-color: #FFFAF5;
+  border: 1px solid #ff490d;
+  box-shadow: 0px 0px 1.25rem 0px rgba(29,29,29,0.1);
+  margin-block: 2rem;
 }
 .content {
   font-size: 1.85rem;
@@ -253,14 +283,14 @@ nav.container {
 }
 
 .inquire {
-  display: block;
+  /* display: block; */
   text-decoration: none;
   margin: 6.5rem auto;
   width: fit-content;
   cursor: pointer;
   background-color: #fff;
   color: #ff490d;
-  border: 1px solid #ff490d;
+  /* border: 1px solid #ff490d; */
   font-weight: 500;
   font-size: 1rem;
 }

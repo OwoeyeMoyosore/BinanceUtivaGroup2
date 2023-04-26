@@ -446,7 +446,7 @@ nav.container {
   width: fit-content;
   cursor: pointer;
   background-color: #fff!important;
-  color: #ff490d;
+  color: #ff490d !important;
   border: 1px solid #ff490d;
   font-weight: 500;
   font-size: 1rem;

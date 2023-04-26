@@ -133,9 +133,6 @@ a{
   font-weight: bold;
 }
 
-/* .show{
-
-} */
 
 .scroll-down img {
   margin: 0 auto;
@@ -188,8 +185,8 @@ padding: 6rem 4rem 0 4rem;
 }
 
 @media screen and (max-width: 480px) {
-  .footer {
-    padding: 6rem 1rem 0 1rem;
+  .footers{
+    padding: 2rem 1rem 0 1rem;
   }
 }
 
@@ -404,9 +401,23 @@ width: 100%;
   border-radius: 3rem;
   width: fit-content;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #fff!important;
   color: #ff490d;
   /* border: 1px solid #ff490d; */
+  font-weight: 500;
+  font-size: 1rem;
+}
+.inquire-btn {
+  display: block;
+  text-decoration: none;
+  margin: 6.5rem auto;
+  padding: 1rem 1.5rem;
+  border-radius: 3rem;
+  width: fit-content;
+  cursor: pointer;
+  background-color: #fff!important;
+  color: #ff490d;
+  border: 1px solid #ff490d;
   font-weight: 500;
   font-size: 1rem;
 }
@@ -557,13 +568,14 @@ color: #ff490d;
   text-align: center;
   flex-direction: column;
   gap: 0.5rem;
+  color: #ff490d;
 }
 .scroll_down img {
   width: 1.1rem;
 }
 .scroll_down a {
   text-decoration: none;
-  color: #ff490d;
+  color: #ff490d!important;
   font-family: "A", sans-serif;
   font-size: 0.85rem;
   font-weight: bold;

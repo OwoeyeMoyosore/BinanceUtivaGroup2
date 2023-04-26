@@ -40,14 +40,14 @@
               id="navbarNav1"
             >
               <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active fw-bold" aria-current="page" href="#"
                   >Who we are</a
                 >
-                <a class="nav-link" href="#WhatWeOffer">What we offer</a>
-                <a class="nav-link" href="#">Partners</a>
-                <a class="nav-link" href="#">How to apply</a>
-                <button type="button" class="text-white rounded-pill book-btn">
-                  Book a tour
+                <a class="nav-link fw-bold" href="#WhatWeOffer">What we offer</a>
+                <a class="nav-link fw-bold" href="#Partners">Partners</a>
+                <a class="nav-link fw-bold" href="#Apply">How to apply</a>
+                <button type="button" onclick="window.location.href='#booking' " class="text-white rounded-pill book-btn">
+                    Book a tour
                 </button>
               </div>
             </div>
@@ -75,7 +75,7 @@
       </section>
 
       <section class="section-two ">
-        <div class="section_two_group row">
+        <div class="section_two_group row p-0 m-0">
         <div class="col-md-6 division-two_two">
           <div>
             <h3
@@ -238,7 +238,7 @@
       </div>
 
       <!-- Content 3 -->
-      <div class="content-two">
+      <div class="content-two" id="Partners">
         <p class="content-header">Who do we partner with?</p>
         <p class="content-para">
           We love this business and our partners: vendors,<br />
@@ -248,6 +248,94 @@
         <a href="#" class="inquire-btn">Meet our community</a>
       </div>
       <section class="partner-container">
+          <div class="row">
+            <div class="flex-ctn">
+              <div class="col-md-4 col-sm-12">
+                <div class="step">
+                  <div class="ico">
+                    <img
+                      src="./assets/images/svg7.svg"
+                      alt="Dulcinea"
+                      class="features-image"
+                      width="110.9"
+                      height="48"
+                    />
+                  </div>
+                </div>
+                <h3 class="features-title">Dulcinea – Churros & Pastries</h3>
+                <p class="features-description">
+                  Dulcinea is a culinary concept dedicated to Spanish confections
+                  featuring Spain’s most beloved confection the Churro. You can find
+                  them on weekends at Smorgasburg and every day at Dekalb Market.
+                </p>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="step">
+                  <div class="ico">
+                    <img
+                      src="./assets/images/partner-logo.jpg"
+                      alt="Dulcinea"
+                      class="features-image"
+                      width="110.9"
+                      height="48"
+                    />
+                  </div>
+                </div>
+                <h3 class="features-title">Empanada Republic</h3>
+                <p>
+                  Empanada Republic is a Latin American conceived-Brooklyn born
+                  project doing delicious handmade empanadas. You can find them at
+                  JFK airport into the TWA hotel foodhall. They cater you.
+                </p>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="step">
+                  <div class="ico">
+                    <img
+                      src="./assets/images/svg8.svg"
+                      alt="Dulcinea"
+                      class="features-image"
+                      width="110.9"
+                      height="48"
+                    />
+                  </div>
+                </div>
+                <h3 class="features-title">Jillicious Foods & Events</h3>
+                <p>
+                  Empanada Republic is a Latin American conceived-Brooklyn born
+                  project doing delicious handmade empanadas. You can find them at
+                  JFK airport into the TWA hotel foodhall. They cater you.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="flex-ctn">
+            <div class="col-md-4 col-sm-12">
+            <div class="step">
+              <div class="ico">
+                <img
+                  src="./assets/images/partner-logo2.jpg"
+                  alt="Dulcinea"
+                  class="features-image"
+                 width="110.9"
+                  height="48"
+                />
+              </div>
+            </div>
+            <h3 class="features-title">Tom's Granola</h3>
+            <p>
+              What makes the perfect Granola? Do you like decadently sweet or
+              delightfully healthy? Simple or Complex? Light or Rich? Please
+              follow @tomsgranola and help them on their granola journey!
+            </p>
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+      <!-- <section class="partner-container">
         <div class="flex-ctn">
           <div class="flex-item">
             <div class="step">
@@ -326,14 +414,14 @@
             </p>
           </div>
         </div>
-      </section>
+      </section> -->
     </div>
     <div class="scroll_down">
       <img src="./assets/images/arrow-down.svg" alt="arrow-down" />
       <a href="#">GET TO KNOW US</a>
     </div>
     <!-- Apply Section -->
-    <div class="apply-box">
+    <div class="apply-box" id="Apply">
       <div class="apply-container">
         <div class="apply-content">
           <h2 class="apply-header">How to apply?</h2>
@@ -358,7 +446,7 @@
     </div>
 
     <!-- Booking -->
-    <section class="text-center booking_section " style="">
+    <section class="text-center booking_section " id="booking" >
       <div>
         <div>
           <h1 class="" style="text-decoration: underline 2px #ff490d; font-size: 33px;">Booking and Information Request</h1>
@@ -425,7 +513,11 @@
               </label>
             </div>
 
-            <button type="button" class="btn mt-2 text-white" style="background-color: #ff490d;">Submit my request</button>
+
+            <div class="d-grid gap-2">
+              <button class="btn text-white mt-2" type="button" style="background-color: #ff490d; border-radius: 2rem; padding-block: 10px;">Submit my request</button>
+            </div>
+            <!-- <button type="button" class="btn mt-2 text-white" style="background-color: #ff490d;">Submit my request</button> -->
           </form>
         </div>
       </div>

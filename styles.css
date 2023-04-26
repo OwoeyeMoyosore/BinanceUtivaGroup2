@@ -19,8 +19,8 @@ a {
   text-decoration: none !important;
   color: black !important;
 }
-.nav-link:hover {
-  text-decoration: 2px underline #ff490d;
+.nav-link:hover{
+  text-decoration: 2px underline #ff490d!important;
 }
 .nav-link:active,
 .nav-link:focus {
@@ -31,12 +31,12 @@ a {
   border: #ff490d;
   width: 10rem;
 }
-.book-btn:hover {
+/* .book-btn:hover{
   background-color: white;
   color: #ff490d !important;
   border: 2px solid #ff490d;
-}
-.sec1img {
+} */
+.sec1img{
   object-fit: cover;
   object-position: 100%;
   width: 100%;
@@ -183,9 +183,15 @@ a {
   padding: 6rem 4rem 0 4rem;
 }
 
-.logowhite {
-  width: 10rem;
-  padding-bottom: 3rem;
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 6rem 1rem 0 1rem;
+  }
+}
+
+.logowhite{
+width: 10rem;
+padding-bottom: 3rem;
 }
 .signUp {
   font-size: 29px;
@@ -242,8 +248,8 @@ a {
   margin-inline: auto !important;
 }
 
-.booking_input {
-  border: 2px solid #ff490d !important;
+.booking_input{
+  border:1px solid #ff490d!important;
   /* width: 50rem!important; */
 }
 
@@ -491,11 +497,11 @@ nav.container {
 .partner-container .flex-ctn {
   padding: 0 3rem;
   text-align: center;
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  gap: 8%;
+  /* gap: 8%; */
 }
 .partner-container .flex-item {
   display: flex;

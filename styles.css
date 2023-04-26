@@ -10,21 +10,51 @@ body {
 }
 .logo {
   width: 9.5rem;
+
+}
+#navbarNav1.show {
+  position: fixed;
+  inset: 0;
+  background: #fffaf5;
+  z-index: -1;
+}
+#navbarNav1.show .navbar-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1000;
+  align-items: center;
+  height: 100%;
+  font-size: 2.1rem;
+}
+#navbarNav1.show .navbar-nav button{
+  font-size: 1.2rem;
+  padding: 1rem ;
+  margin-top: 1rem;
 }
 .mynav {
   padding: 1rem 2rem;
   background-color: transparent !important;
+  z-index: 1000;
+}
+.mynav .container-fluid{
+  z-index: 0;
+  position: relative;
 }
 a {
   text-decoration: none !important;
   color: black !important;
 }
-.nav-link:hover{
-  text-decoration: 2px underline #ff490d!important;
+.nav-link {
+  font-weight: bold !important;
+  gap: 2em !important;
+}
+.nav-link:hover {
+  text-decoration: 1.5px underline #ff490d !important;
 }
 .nav-link:active,
 .nav-link:focus {
-  text-decoration: 2px underline #ff490d;
+  text-decoration: 1.5px underline #ff490d;
 }
 .book-btn {
   background-color: #ff490d;
@@ -36,7 +66,10 @@ a {
   color: #ff490d !important;
   border: 2px solid #ff490d;
 } */
-.sec1img{
+.who-we-are {
+  font-weight: 400 !important;
+}
+.sec1img {
   object-fit: cover;
   object-position: 100%;
   width: 100%;
@@ -189,9 +222,9 @@ a {
   }
 }
 
-.logowhite{
-width: 10rem;
-padding-bottom: 3rem;
+.logowhite {
+  width: 10rem;
+  padding-bottom: 3rem;
 }
 .signUp {
   font-size: 29px;
@@ -236,6 +269,10 @@ padding-bottom: 3rem;
   justify-content: center;
 }
 
+.name {
+  border-width: 2px !important;
+  min-height: 73px !important;
+}
 .email_form input::placeholder {
   color: white;
 }
@@ -248,8 +285,8 @@ padding-bottom: 3rem;
   margin-inline: auto !important;
 }
 
-.booking_input{
-  border:1px solid #ff490d!important;
+.booking_input {
+  border: 1px solid #ff490d !important;
   /* width: 50rem!important; */
 }
 
@@ -395,7 +432,7 @@ nav.container {
   width: fit-content;
   cursor: pointer;
   background-color: #fff;
-  color: #ff490d;
+  color: #ff490d !important;
   border: 1px solid #ff490d;
   font-weight: 500;
   font-size: 1rem;
@@ -449,9 +486,9 @@ nav.container {
   margin: 6.5rem auto;
   width: fit-content;
   cursor: pointer;
-  color: #fff;
+  color: #fff !important;
   background-color: #ff490d;
-  font-size: 0.95em;
+  font-size: 0.85em !important;
   padding: 1rem 1.5rem;
   border-radius: 3rem;
   text-align: center;
@@ -553,7 +590,7 @@ nav.container {
 }
 .scroll_down a {
   text-decoration: none;
-  color: #ff490d;
+  color: #ff490d !important;
   font-family: "A", sans-serif;
   font-size: 0.85rem;
   font-weight: bold;

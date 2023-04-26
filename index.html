@@ -22,7 +22,7 @@
         >
           <div class="container-fluid">
             <a class="navbar-brand" href="#"
-              ><img src="./assets/images/logowhite.svg" alt="logo" class="logo"
+              ><img src="./assets/images/logo.svg" alt="logo" class="logo"
             /></a>
             <button
               class="navbar-toggler"
@@ -40,12 +40,12 @@
               id="navbarNav1"
             >
               <div class="navbar-nav">
-                <a class="nav-link active fw-bold" aria-current="page" href="#"
+                <a class="nav-link active fw-normal" aria-current="page" href="#"
                   >Who we are</a
                 >
-                <a class="nav-link fw-bold" href="#WhatWeOffer">What we offer</a>
-                <a class="nav-link fw-bold" href="#Partners">Partners</a>
-                <a class="nav-link fw-bold" href="#Apply">How to apply</a>
+                <a class="nav-link fw-normal" href="#Partners">Partners</a>
+                <a class="nav-link fw-normal" href="#Apply">How to apply</a>
+                <a class="nav-link fw-normal" href="#WhatWeOffer">What we offer</a>
                 <button type="button" onclick="window.location.href='#booking' " class="text-white rounded-pill book-btn">
                     Book a tour
                 </button>
@@ -78,8 +78,8 @@
         <div class="section_two_group row p-0 m-0">
         <div class="col-md-6 division-two_two">
           <div>
-            <h3
-              style="text-decoration: underline 2px #ff490d; "
+            <h3 class="who-we-are"
+              style="border-bottom: #ff490d 2px solid; width: fit-content; "
             >
               Who we are
             </h3>
@@ -449,64 +449,64 @@
     <section class="text-center booking_section " id="booking" >
       <div>
         <div>
-          <h1 class="" style="text-decoration: underline 2px #ff490d; font-size: 33px;">Booking and Information Request</h1>
-          <h2 class="mt-5" style="font-size: 25px; padding-bottom: 3rem;">Book a tour if you want to get to know us, see our<br /> space for yourself, and maybe even work together!	</h2>
+          <h1 class="fw-normal" style="border-bottom: #ff490d 2px solid; font-size: 33px; width: fit-content; margin-inline: auto;">Booking and Information Request</h1>
+          <h2 class="mt-5 fw-lighter" style="font-size: 25px; padding-bottom: 3rem;">Book a tour if you want to get to know us, see our<br /> space for yourself, and maybe even work together!	</h2>
         
         </div>
         <div class="d-flex justify-content-center booking_form" style="max-width: 700px;">
           <form>
-            <div class="form-floating mb-3">
+            <div class=" name form-floating mb-3">
               <input type="text" class="form-control booking_input" id="floatingInput" placeholder="Full Name *">
               <label for="floatingInput">Full Name *</label>
             </div>
 
             <div class="d-flex"> 
-              <div class="form-floating mb-3 me-3">
+              <div class="name  form-floating mb-3 me-3">
                 <input type="text" class="form-control booking_input"  id="floatingInput" placeholder="Full Name *">
                 <label for="floatingInput">Email Address *</label>
               </div>
 
-              <div class="form-floating mb-3">
+              <div class="name form-floating mb-3">
                 <input type="text" class="form-control booking_input" id="floatingInput" placeholder="Full Name *">
                 <label for="floatingInput">Phone Number *</label>
               </div>
             </div>
 
             <div class="d-flex"> 
-              <div class="form-floating mb-3 me-3">
+              <div class="name form-floating mb-3 me-3">
                 <input type="text" class="form-control booking_input"  id="floatingInput" placeholder="Full Name *">
                 <label for="floatingInput">Company Name *</label>
               </div>
 
-              <div class="form-floating mb-3">
+              <div class="name form-floating mb-3">
                 <input type="text" class="form-control booking_input" id="floatingInput" placeholder="Full Name *">
                 <label for="floatingInput">Type Of Cuisine *</label>
               </div>
             </div>
 
             <div class="d-flex"> 
-              <div class="form-floating mb-3 me-3">
+              <div class="name form-floating mb-3 me-3">
                 <input type="text" class="form-control booking_input"  id="floatingInput" placeholder="Full Name *">
                 <label for="floatingInput">Website or Social Media *</label>
               </div>
 
-              <div class="form-floating mb-3">
+              <div class="name form-floating mb-3">
                 <input type="text" class="form-control booking_input" id="floatingInput" placeholder="Full Name *">
                 <label for="floatingInput">I am a..... *</label>
               </div>
             </div>
 
-            <div class="form-floating mb-3">
+            <div class="name form-floating mb-3">
               <textarea class="form-control booking_input" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
               <label for="floatingTextarea2">Describe your company *</label>
             </div>
 
-            <div class="form-floating mb-3">
+            <div class="name form-floating mb-3">
               <input type="text" class="form-control booking_input" id="floatingInput" placeholder="Full Name *">
               <label for="floatingInput">How did you find us? *</label>
             </div>
 
-            <div class="form-check mb-5">
+            <div class="name form-check mb-5">
               <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="border:1px solid #ff490d;">
               <label class="form-check-label" for="flexCheckDefault">
                 I have read and agreed to the terms and conditions

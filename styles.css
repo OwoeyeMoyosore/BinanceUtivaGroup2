@@ -31,6 +31,7 @@ body {
   padding: 1rem;
   margin-top: 1rem;
 }
+
 .mynav {
   padding: 1rem 2rem;
   background-color: transparent !important;
@@ -164,7 +165,6 @@ a {
   font-weight: bold;
 }
 
-
 .scroll-down img {
   margin: 0 auto;
   display: block;
@@ -206,15 +206,14 @@ a {
   }
 }
 
-.footers{
-background-color: black;
-height: 100%;
-padding: 6rem 4rem 0 4rem;
-
+.footers {
+  background-color: black;
+  height: 100%;
+  padding: 6rem 4rem 0 4rem;
 }
 
 @media screen and (max-width: 480px) {
-  .footers{
+  .footers {
     padding: 2rem 1rem 0 1rem;
   }
 }
@@ -373,7 +372,7 @@ nav.container {
   border: none;
   outline: none;
   /* box-shadow: 0px 0px 1.25rem 0px rgba(29,29,29,0.1); */
-  /* line-height: 1;
+/* line-height: 1;
   font-weight: bold;
   user-select: none;
 } */
@@ -431,7 +430,7 @@ nav.container {
   border-radius: 3rem;
   width: fit-content;
   cursor: pointer;
-  background-color: #fff!important;
+  background-color: #fff !important;
   color: #ff490d;
   /* border: 1px solid #ff490d; */
   font-weight: 500;
@@ -445,7 +444,7 @@ nav.container {
   border-radius: 3rem;
   width: fit-content;
   cursor: pointer;
-  background-color: #fdfbfa!important;
+  background-color: #fdfbfa !important;
   color: #ff490d !important;
   border: 1px solid #ff490d;
   font-weight: 500;

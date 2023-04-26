@@ -445,14 +445,14 @@ nav.container {
   border-radius: 3rem;
   width: fit-content;
   cursor: pointer;
-  background-color: #fff!important;
+  background-color: #fdfbfa!important;
   color: #ff490d !important;
   border: 1px solid #ff490d;
   font-weight: 500;
   font-size: 1rem;
 }
 .inquire-btn:hover {
-  background-color: #fffaf5;
+  background-color: #fffaf5 !important;
 }
 
 .services-section .flex-ctn {
